@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="11:24"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:text="3/17"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_time"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/tv_day"
+        android:text="周四"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/tv_time"
+        android:layout_below="@id/tv_time"
+        android:text="深圳市"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/v_h"
+        android:layout_width="1dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/tv_time"
+        android:background="#555" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:layout_toRightOf="@id/v_h"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_city"
+        android:layout_alignLeft="@id/iv_pic"
+        android:text="阵雨 17°"
+        android:textSize="12sp" />
+
+</RelativeLayout>
