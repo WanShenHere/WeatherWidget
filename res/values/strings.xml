@@ -4,5 +4,6 @@
     <string name="app_name">WeatherWidget</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="_11_24">11:24</string>
 
 </resources>
